@@ -15,7 +15,7 @@ public:
         } while (valor != 0);
     }
     ~Sumatoria() {
-        cout << "\nLa suma total de los valores ingresados es: " << suma << endl;
+        cout << "La suma total de los valores ingresados es: " << suma << endl;
     }
 };
 
@@ -23,4 +23,5 @@ int main() {
     Sumatoria s1;
     return 0;
 }
+
 
