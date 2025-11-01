@@ -15,13 +15,13 @@ public:
         cin.ignore();
     }
     void imprimirDatos() {
-        cout << "\nNombre: " << nombre << "\nSueldo: $" << sueldo << endl;
+        cout << "Nombre: " << nombre << "Sueldo: $" << sueldo << endl;
     }
     void pagaImpuestos() {
         if (sueldo > 3000)
-            cout << "Debe pagar impuestos.\n";
+            cout << "Debe pagar impuestos.";
         else
-            cout << "No debe pagar impuestos.\n";
+            cout << "No debe pagar impuestos.";
     }
 };
 
@@ -31,4 +31,5 @@ int main() {
     e1.pagaImpuestos();
     return 0;
 }
+
 
