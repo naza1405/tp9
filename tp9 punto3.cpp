@@ -16,7 +16,7 @@ public:
         if (num2 != 0)
             cout << "Division: " << (float)num1 / num2 << endl;
         else
-            cout << "Division: No se puede dividir por cero.\n";
+            cout << "Division: No se puede dividir por cero.";
     }
 };
 
@@ -28,4 +28,5 @@ int main() {
     op.mostrarResultados();
     return 0;
 }
+
 
