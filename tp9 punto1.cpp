@@ -12,16 +12,16 @@ public:
         getline(cin, nombre);
         cout << "Ingrese edad: ";
         cin >> edad;
-        cin.ignore(); // limpia el buffer
+        cin.ignore();
     }
     void imprimirDatos() {
-        cout << "\nNombre: " << nombre << "\nEdad: " << edad << endl;
+        cout << "Nombre: " << nombre << "Edad: " << edad << endl;
     }
     void mayorDeEdad() {
         if (edad >= 18)
-            cout << "Es mayor de edad.\n";
+            cout << "Es mayor de edad.";
         else
-            cout << "No es mayor de edad.\n";
+            cout << "No es mayor de edad.";
     }
 };
 
@@ -31,4 +31,5 @@ int main() {
     a1.mayorDeEdad();
     return 0;
 }
+
 
